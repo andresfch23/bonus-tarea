@@ -1,0 +1,16 @@
+{
+  "name": "bonus-primer-trabajo",
+  "version": "1.0.0",
+  "description": "Resultados de tarea 1 a traves de un navegador",
+  "main": "principal.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres andresfch23@gmail.com",
+  "license": "ISC"
+}
