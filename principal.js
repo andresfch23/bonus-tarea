@@ -1,22 +1,8 @@
 const datos = require('./datos');
-const fs = require('fs');
 const express = require('express');
 const app = express();
 
-const opciones = {
-  id: {
-    demand: true,
-    alias: 'i'
-  },
-  nombreAlumno : {
-    demand: true,
-    alias: 'n' 
-  },
-  cedula : {
-    demand: true,
-    alias: 'c' 
-  }
-}
+const { opciones } = datos;
 
 const argv = require('yargs')
 .command('inscribir', 'inscripcion a uno de los cursos', opciones)

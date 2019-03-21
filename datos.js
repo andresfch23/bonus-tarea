@@ -19,6 +19,21 @@ const cursos = [
   }
 ]
 
+const opciones = {
+  id: {
+    demand: true,
+    alias: 'i'
+  },
+  nombreAlumno : {
+    demand: true,
+    alias: 'n' 
+  },
+  cedula : {
+    demand: true,
+    alias: 'c' 
+  }
+}
+
 const mostrarCursos = (cursos, interesado = false) => {
   let offset = 0;
   cursos.forEach(curso => {
@@ -35,5 +50,6 @@ const mostrarCursos = (cursos, interesado = false) => {
 
 module.exports = {
   cursos,
-  mostrarCursos
+  mostrarCursos,
+  opciones
 };
